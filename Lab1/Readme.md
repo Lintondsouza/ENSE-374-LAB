@@ -9,3 +9,4 @@ It includes features such as
 
 ``` txt
 - Your favorite song or album or artist
+- My favorite artist is Ed Sheeran and song being Perfect
