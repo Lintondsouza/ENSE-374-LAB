@@ -1,3 +1,47 @@
+.container3 {
+    text-align: center;
+    width: 40%; 
+    border: 1px solid #545353;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px; 
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+ } 
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 400px;
+    align-self:center;
+    border: 1px solid #7c7b7b;
+    border-radius: 4px;
+} 
+
+.btn, .btn-secondary {
+    padding: 10px;
+    background-color: hsl(105, 56%, 65%);
+    color: rgb(0, 0, 0);
+    border: 1px solid #050505;
+    border-radius: 4px;
+    align-self:center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btn:hover, .btn-secondary:hover {
+    background-color: #44d4c8;
+}
+
 .note-box {
     margin-top: 20px;
     display: flex;
@@ -47,21 +91,6 @@
     font-size: 16px;
 }
 
-.logged-in-box {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 50%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: #e9f1f5;
-    border: 1px solid #7c7b7b;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .accordion-button {
     background-color: hsl(105, 59%, 52%); 
     color: rgb(0, 0, 0);
@@ -73,4 +102,29 @@
 
 .accordion-button:focus {
     box-shadow: none; 
+}
+
+.accordion-item{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.accordion2-item{
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.accordion-body{
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.accordion-container{
+border: 1px solid #ffffff;
 }
