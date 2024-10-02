@@ -16,23 +16,22 @@ body {
 
 .container {
     text-align: center;
-    width: 25%; 
-    border: 0.005px solid #545353;
+    width: 40%; 
+    border: none;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .container2 {
     text-align: center;
     width: 40%; 
-    border: 0.005px solid #545353;
-    border-radius: 20px;
+    border: none;
     margin-bottom: 40px;
 }
 .container3 {
     text-align: center;
-    width: 40%; 
-    border: 0.005px solid #545353;
-    border-radius: 20px;
+    width: 100%; 
+    border: 1px solid #545353;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -100,7 +99,7 @@ input {
 }
 
 .btn:hover, .btn-secondary:hover {
-    background-color: #0056b3;
+    background-color: #44d4c8;
 }
 
 .note-box {
@@ -113,12 +112,12 @@ input {
 
 .note {
     background-color: #e9f1f5;
-    padding: 15px;
-    border-radius: 25px;
+    padding: 5px;
+    border-radius: 0px;
     border: 1px solid #7c7b7b;
     display: flex;
     margin: auto;
-    gap: 10px;
+    gap: 0px;
     width: 80%;
     justify-content: space-between; 
     align-items: center;
@@ -131,9 +130,23 @@ input {
     gap: 5px;
 }
 
+
 .btn-arrow {
-    background-color: transparent;
-    border: 1px solid #7c7b7b;
+    border: 2px solid #000000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-arrow-1 {
+    background-color: rgb(34, 173, 29);
+    border: 2px solid #000000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-arrow-2 {
+    background-color: rgb(249, 47, 47);
+    border: 2px solid #000000;
     cursor: pointer;
     font-size: 16px;
 }
@@ -151,4 +164,17 @@ input {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+    background-color: hsl(105, 59%, 52%); 
+    color: rgb(0, 0, 0);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #b2d0ef; 
+}
+
+.accordion-button:focus {
+    box-shadow: none; 
 }
