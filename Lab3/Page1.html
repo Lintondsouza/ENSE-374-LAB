@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page1</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <h1>Note-Vote</h1>
+    <div class="container">
+    <button type="submit" class="btn">Log in</button>
+    <!-- Log In Section -->
+    <h1>Log in</h1>
+    <form action="/login" method="post">
+        <label for="email-login">Email address</label>
+        <input type="email" id="email-login" placeholder="Email address">
+        
+        <label for="password-login">Password</label>
+        <input type="password" id="password-login" placeholder="Password">
+        <br>
+        <button type="submit" class="btn">Log in</button>
+    </form>
+    <br>
+    <button onclick="window.location.href='/register'">Register</button>
+    <br>
+    
+<!-- Sign Up Section -->
+<h1>Sign up</h1>
+<form action="/signup" method="post">
+    <label for="email-signup">Email address</label>
+    <input type="email" id="email-signup" placeholder="Email address">
+
+    <label for="password-signup">Password</label>
+    <input type="password" id="password-signup" placeholder="Password">
+
+    <label for="invite-code">Invite Code</label>
+    <input type="text" id="invite-code" placeholder="Invite Code">
+<br>
+    <button type="submit" class="btn">Sign Up</button>
+    </form>
+ </div>
+
+</body>
+</html>
