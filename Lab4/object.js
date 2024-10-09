@@ -15,7 +15,7 @@ let note1 = createNote(1, "user1", "This is note 1");
 let note2 = createNote(2, "user2", "This is note 2");
 let note3 = createNote(3, "user3", "This is note 3");
 
-// Upvote/Downvote system example
+// Upvote/Downvote example
 note1.upvotes.push("user2");
 note2.downvotes.push("user1");
 note3.upvotes.push("user1", "user2");
