@@ -1,10 +1,10 @@
 #notesContainer {
     display: flex;
     flex-wrap: wrap; /* Allows wrapping to the next line if needed */
-    gap: 10px; /* Adds some space between cards */
+    gap: 10px;
 }
 
 .card {
-    width: 200px; /* Set a fixed width for each card */
-    margin-bottom: 20px; /* Adds space between rows of cards (if wrapping occurs) */
+    width: 200px; 
+    margin-bottom: 20px;
 }
