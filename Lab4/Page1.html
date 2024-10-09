@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Burn After Reading</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Burn After Reading</h1>
+        <form id="noteForm">
+            <div class="form-group">
+                <label for="noteTitle"></label>
+                <input type="text" class="form-control" id="noteTitle" required placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label for="noteContent">Contents</label>
+                <textarea class="form-control" id="noteContent" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Post!</button>
+        </form>
+        
+        <div id="notesContainer" class="mt-4">
+            <!-- Notes will appear here -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
