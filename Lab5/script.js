@@ -100,5 +100,4 @@ function displayNotes() {
     });
 }
 
-// Initial display
 displayNotes();
